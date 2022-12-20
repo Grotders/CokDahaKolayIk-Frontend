@@ -5,7 +5,6 @@ let apiURL = "/api/v1/enums";
 
 export default class EnumService{
     
-
     getDepartments() {
         return axios.get(localhostURL + apiURL + "/departments")
     }
